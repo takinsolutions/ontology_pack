@@ -233,9 +233,7 @@
     - `E92 Spacetime Volume. P169i spacetime volume is defined by: rdfs:Literal`
     - `E52 Time-Span. P170i time is defined by: rdfs:Literal`
     -->
-      <rdf:Description rdf:about="http://www.cidoc-crm.org/cidoc-crm/">
-        <owl:versionInfo>RDFs Implementation (November 2021) of CIDOC-CRM 7.1.1</owl:versionInfo>
-      </rdf:Description>
+   
       <rdfs:Class rdf:about="E1_CRM_Entity">
         <rdfs:label xml:lang="en">CRM Entity</rdfs:label>
         <rdfs:label xml:lang="de">CRM Entität</rdfs:label>
