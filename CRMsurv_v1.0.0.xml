@@ -28,20 +28,20 @@
     <rdfs:label xml:lang="en">Survey Surface Unit</rdfs:label>
     <rdfs:comment>
     </rdfs:comment>
-    <rdfs:subClassOf rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S20_Rigid_Physical_Feature"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S20_Rigid_Physical_Feature"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="U5_Digitization_Process_Unit">
     <rdfs:label xml:lang="en">Digitization Process Unit</rdfs:label>
     <rdfs:comment>
     </rdfs:comment>
-    <rdfs:subClassOf rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"/>
     <rdfs:subClassOf rdf:resource="http://www.ics.forth.gr/isl/CRMdig/D2_Digitization_Process"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="U6_Material_Sample">
     <rdfs:label xml:lang="en">Material Sample</rdfs:label>
     <rdfs:comment>
     </rdfs:comment>
-    <rdfs:subClassOf rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S13_Sample"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S13_Sample"/>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Object"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="U7_Fabric">
@@ -78,7 +78,7 @@
     <rdfs:label xml:lang="en">has observation affecting parameter</rdfs:label>
     <rdfs:comment>
     </rdfs:comment>
-    <rdfs:domain rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"/>
+    <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"/>
     <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
 </rdf:Property>
 <rdf:Property rdf:about="UP1i_is_observation_affecting_parameter_for">
@@ -86,7 +86,7 @@
     <rdfs:comment>
     </rdfs:comment>
     <rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E55_Type"/>
-    <rdfs:range rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"/>
+    <rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S4_Observation"/>
 </rdf:Property>
 <rdf:Property rdf:about="UP2_surveyed">
     <rdfs:label xml:lang="en">surveyed</rdfs:label>
