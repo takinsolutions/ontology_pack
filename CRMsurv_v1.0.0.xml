@@ -15,14 +15,14 @@
     <rdfs:label xml:lang="en">Survey Collection Activity</rdfs:label>
     <rdfs:comment>
     </rdfs:comment>
-    <rdfs:subClassOf rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"/>
-    <rdfs:subClassOf rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S2_Sample_Taking"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S2_Sample_Taking"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="U3_Survey_Process_Unit">
     <rdfs:label xml:lang="en">Survey Process Unit</rdfs:label>
     <rdfs:comment>
     </rdfs:comment>
-    <rdfs:subClassOf rdf:resource="https://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S19_Encounter_Event"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="U4_Survey_Surface_Unit">
     <rdfs:label xml:lang="en">Survey Surface Unit</rdfs:label>
