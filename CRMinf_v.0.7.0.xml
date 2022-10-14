@@ -28,7 +28,8 @@ Encoding Rules:
 <rdfs:Class rdf:about="I1_Argumentation">
 <rdfs:comment> This class comprises the activity of making honest inferences or observations. An honest inference or observation is one in which the E39 Actor carrying out the I1 Argumentation justifies and believes that the I6 Belief Value associated with resulting I2 Belief about the I4 Proposition Set is the correct value at the time that the activity was undertaken and that any I3 Inference Logic or methodology was correctly applied. Only one instance of E39 Actor may carry out an instance of I1 Argumentation, though the E39 Actor may, of course, be an instance of E74 Group. </rdfs:comment>
 </rdfs:Class>
-<rdfs:Class rdf:about="http://www.ics.forth.gr/isl/CRMsci/S4_Observation">
+<rdfs:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/CRM
+                       /S4_Observation">
 <rdfs:subClassOf rdf:resource="I1_Argumentation"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="I2_Belief">
@@ -36,7 +37,7 @@ Encoding Rules:
 <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E2_Temporal_Entity"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="I3_Inference_Logic">
-<rdfs:comment> This class comprises the rules used as inputs to I5 Inference Making. In this context the term “logic” is used in the most general sense of the Greek term, and not in the mathematical sense only. Examples are the direct application of formal logic, mathematical theories and calculus, formal or informal default reasoning based on default values associated with categories, probabilistic reasoning based mathematical models and assumed or observed frequencies for certain categories, application of theoretical social models and comparisons with “cultural parallels”, etc. An instance of Inference Logic could also be a reference to the exact software release of a Bayesian reasoner, a rule such as “later layers are on top of earlier layers”, or even a term like “social intuition”, if this is scholarly acceptable. (after Doerr, Kritsotaki and Boutsika 2011). Indeed anything that is scientifically or academically acceptable as a method for drawing conclusions may be included for instance human pattern recognition. A particular instance of I3 Inference Logic would be the algorithm implemented in a particular revision of a software package. Instances of I3 Inference Logic not only comprise the method of reasoning, but also the set of categorical laws or axioms used in the argumentation. Often both are inextricably interwoven, for instance in a software implementation. </rdfs:comment>
+<rdfs:comment> This class comprises the rules used as inputs to I5 Inference Making. In this context the term “logic” is used in the most general sense of the Greek term, and not in the mathematical sense only. Examples are the direct application of formal logic, mathematical theories and calculus, formal or informal default reasoning based on default values associated with categories, probabilistic reasoning based mathematical models and assumed or observed frequencies for certain categories, application of theoretical social models and comparisons with “cultural parallels”, etc. An instance of Inference Logic could also be a reference to the exact software release of a Bayesian reasoner, a rule such as “later layers are on top of earlier layers”, or even a term like “social intuition”, if this is scholarly acceptable. (after Doerr, Kritsotaki and Boutsika 2011). Indeed anything that is entifically or academically acceptable as a method for drawing conclusions may be included for instance human pattern recognition. A particular instance of I3 Inference Logic would be the algorithm implemented in a particular revision of a software package. Instances of I3 Inference Logic not only comprise the method of reasoning, but also the set of categorical laws or axioms used in the argumentation. Often both are inextricably interwoven, for instance in a software implementation. </rdfs:comment>
 <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E89_Propositional_Object"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="I4_Proposition_Set">
@@ -47,13 +48,13 @@ Encoding Rules:
 <rdfs:comment> This class comprises the action of making honest propositions and statements about particular states of affairs in reality or in possible realities or categorical descriptions of reality by using inferences from other statements based on hypotheses and any form of formal or informal logic. It includes evaluations, calculations, and interpretations based on mathematical formulations and propositions. It is characterized by the use of an existing I2 Belief as the premise that together with a set of I3 Inference Logic draws a further I2 Belief as a conclusion. Documenting instances of I5 Inference Making primarily enables tracing the dependency of knowledge from conclusion to premise through subsequent inferences, possibly back to primary evidence, so that the range of influence of knowledge revision at any intermediate stage of complex inference chains on current convictions can be narrowed down by query. The explicit reference to the applied inference logic further allows scholars or scientists to assess if they can or would follow the documented argument. The class is not intended to promote the use of computationally decidable systems of logic as replacements of scholarly justifications of arguments, even though it allows for documenting the use of decidable logic, if that was deemed adequate for the problem at hand. Principles of scholarly justifications of arguments are also regarded as kinds of inference logic. </rdfs:comment>
 <rdfs:subClassOf rdf:resource="I1_Argumentation"/>
 </rdfs:Class>
-<rdfs:Class rdf:about="http://www.ics.forth.gr/isl/CRMsci/S6_Data_Evaluation">
+<rdfs:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S6_Data_Evaluation">
 <rdfs:subClassOf rdf:resource="I5_Inference_Making"/>
 </rdfs:Class>
-<rdfs:Class rdf:about="http://www.ics.forth.gr/isl/CRMsci/S7_Simulation_or_Prediction">
+<rdfs:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S7_Simulation_or_Prediction">
 <rdfs:subClassOf rdf:resource="I5_Inference_Making"/>
 </rdfs:Class>
-<rdfs:Class rdf:about="http://www.ics.forth.gr/isl/CRMsci/S8_Categorical_Hypothesis_Building">
+<rdfs:Class rdf:about="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S8_Categorical_Hypothesis_Building">
 <rdfs:subClassOf rdf:resource="I5_Inference_Making"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="I7_Belief_Adoption">
