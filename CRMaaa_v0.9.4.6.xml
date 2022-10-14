@@ -870,7 +870,7 @@ Encoding Rules:
     </rdfs:comment>
 	<rdfs:domain rdf:resource="ZE13_Speech_Act"/>
 	<rdfs:range rdf:resource="ZE1_Institutional_Fact"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/O13_triggers"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O13_triggers"/>
 </rdf:Property>
 <rdf:Property rdf:about="ZP42i_was_intentionally_initiated_by">
     <rdfs:label xml:lang="en">was intentionally initiated by</rdfs:label>
@@ -878,7 +878,7 @@ Encoding Rules:
     </rdfs:comment>
 	<rdfs:domain rdf:resource="ZE1_Institutional_Fact"/>
 	<rdfs:range rdf:resource="ZE13_Speech_Act"/>
-    <rdfs:subPropertyOf rdf:resource="http://www.ics.forth.gr/isl/CRMsci/O13i_is_triggered_by"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/O13i_is_triggered_by"/>
 </rdf:Property>     
 
 <rdf:Property rdf:about="ZP43_has_similarity_subject">
