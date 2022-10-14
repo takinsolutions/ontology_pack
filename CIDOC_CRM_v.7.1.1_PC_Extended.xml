@@ -179,7 +179,7 @@ properties of properties in RDF.
     <rdfs:domain rdf:resource="PC23_transfered_title_from" />
     <rdfs:range rdf:resource="E55_Type" />
   </rdf:Property>
-<rdfs:Class rdf:about="PC28_custody_surrender_by">
+<rdfs:Class rdf:about="PC28_custody_surrendered_by">
     <rdfs:subClassOf rdf:resource="PC0_Typed_CRM_Property" />
   </rdfs:Class>
   <rdf:Property rdf:about="P28.1_in_the_role_of">
