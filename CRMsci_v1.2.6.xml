@@ -541,15 +541,15 @@ It offers no information about how and when an E54 Dimension was established.
 	<rdfs:subPropertyOf rdf:resource="O18i_was_altered_by"/>
 </rdf:Property>
 
-<rdf:Property rdf:about="O19_has_found_object">
-	<rdfs:label xml:lang="en">has found object</rdfs:label>
+<rdf:Property rdf:about="O19_encountered_object">
+	<rdfs:label xml:lang="en">encountered object</rdfs:label>
 	<rdfs:comment>This property associates an instance of S19 Encounter Event with an instance of E18 Physical Thing that has been found. </rdfs:comment>
 	<rdfs:domain rdf:resource="S19_Encounter_Event"/>
 	<rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
 </rdf:Property>
 
-<rdf:Property rdf:about="O19i_was_object_found_by">
-	<rdfs:label xml:lang="en">was object found by</rdfs:label>
+<rdf:Property rdf:about="O19i_was_object_encountered_by">
+	<rdfs:label xml:lang="en">was object enountered by</rdfs:label>
 	<rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
 	<rdfs:range rdf:resource="S19_Encounter_Event"/>
 </rdf:Property>
