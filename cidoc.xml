@@ -4923,4 +4923,16 @@
         <rdfs:range rdf:resource="E18_Physical_Thing" />
         <owl:inverseOf rdf:resource="P198_holds_or_supports" />
       </rdf:Property>
+      <rdf:Property rdf:about="P199_represents_instance_of_type">
+            <rdfs:label xml:lang="en">represents instance of type</rdfs:label>
+            <rdfs:domain rdf:resource="E36_Visual_Item"/>
+            <rdfs:range rdf:resource="E55_Type"/>
+            <owl:inverseOf rdf:resource="P199i_type_of_instance_represented_by" />
+      </rdf:Property>
+      <rdf:Property rdf:about="P199i_type_of_instance_represented_by">
+        <rdfs:label xml:lang="en">type of instance represented by</rdfs:label>
+        <rdfs:range rdf:resource="E55_Type"/>
+        <rdfs:domain rdf:resource="E36_Visual_Item"/>
+        <owl:inverseOf rdf:resource="P199_represents_instance_of_type" />
+      </rdf:Property>
     </rdf:RDF>
