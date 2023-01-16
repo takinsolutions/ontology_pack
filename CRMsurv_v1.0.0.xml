@@ -42,7 +42,7 @@
     <rdfs:comment>
     </rdfs:comment>
     <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S13_Sample"/>
-    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Object"/>
+    <rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
 </rdfs:Class>
 <rdfs:Class rdf:about="U7_Fabric">
     <rdfs:label xml:lang="en">Fabric</rdfs:label>
