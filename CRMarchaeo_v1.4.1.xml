@@ -80,7 +80,7 @@ This also implies that a certain degree of coherent (“conformal”) deformatio
 <rdfs:Class rdf:about="A8_Stratigraphic_Unit">
 	<rdfs:label xml:lang="en">Stratigraphic Unit</rdfs:label>
 	<rdfs:comment>This class comprises S20 Physical Features that are either A2 Stratigraphic Volume Units or A3 Stratigraphic Interfaces</rdfs:comment>
-	<rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S20_Physical_Feature"/>
+	<rdfs:subClassOf rdf:resource="http://www.cidoc-crm.org/cidoc-crm/CRMsci/S20_Rigid_Physical_Feature"/>
 </rdfs:Class>
 
 <rdfs:Class rdf:about="A9_Archaeological_Excavation">
@@ -344,5 +344,19 @@ This also implies that a certain degree of coherent (“conformal”) deformatio
 	<rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E53_Place"/>
 	<rdfs:range rdf:resource="A7_Embedding"/>
 </rdf:Property>
+	
+	<rdf:Property rdf:about="AP21_contains">
+	<rdfs:label xml:lang="en">contains</rdfs:label>
+	<rdfs:comment>This property associates an E18 Physical Thing that is found within an A2 Stratigraphic Volume Unit with the stratigraphic volume unit.</rdfs:comment>
+	<rdfs:domain rdf:resource="A2_Stratigraphic_Volume_Unit"/>
+	<rdfs:range rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+</rdf:Property>
+
+<rdf:Property rdf:about="AP21i_is_contained_in">
+	<rdfs:label xml:lang="en">is contained in</rdfs:label>
+	<rdfs:domain rdf:resource="http://www.cidoc-crm.org/cidoc-crm/E18_Physical_Thing"/>
+	<rdfs:range rdf:resource="A2_Stratigraphic_Volume_Unit"/>
+</rdf:Property>
+
 
 </rdf:RDF>
