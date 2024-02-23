@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xml:lang="en" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="https://takin.solutions/ontologies/CRMsurv/">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+CRMsurv 1.0.2 
+-->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xml:base="https://takin.solutions/ontologies/CRMsurv/">
 
 <rdfs:Class rdf:about="U1_Archaeological_Survey">
     <rdfs:label xml:lang="en">Archaeological Survey</rdfs:label>
